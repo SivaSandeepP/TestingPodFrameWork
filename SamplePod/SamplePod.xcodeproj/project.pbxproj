@@ -16,6 +16,7 @@
 		FEE7AF7427B00F7A00B73416 /* SamplePodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE7AF7327B00F7A00B73416 /* SamplePodTests.swift */; };
 		FEE7AF7E27B00F7B00B73416 /* SamplePodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE7AF7D27B00F7B00B73416 /* SamplePodUITests.swift */; };
 		FEE7AF8027B00F7B00B73416 /* SamplePodUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE7AF7F27B00F7B00B73416 /* SamplePodUITestsLaunchTests.swift */; };
+		FEE7AF9427B01A7500B73416 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE7AF9327B01A7500B73416 /* Logger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FEE7AF7927B00F7A00B73416 /* SamplePodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamplePodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEE7AF7D27B00F7B00B73416 /* SamplePodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplePodUITests.swift; sourceTree = "<group>"; };
 		FEE7AF7F27B00F7B00B73416 /* SamplePodUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplePodUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FEE7AF9327B01A7500B73416 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		FEE7AF5B27B00F7900B73416 /* SamplePod */ = {
 			isa = PBXGroup;
 			children = (
+				FEE7AF9227B01A6400B73416 /* PodFiles */,
 				FEE7AF5C27B00F7900B73416 /* AppDelegate.swift */,
 				FEE7AF5E27B00F7900B73416 /* SceneDelegate.swift */,
 				FEE7AF6027B00F7900B73416 /* ViewController.swift */,
@@ -125,6 +128,14 @@
 				FEE7AF7F27B00F7B00B73416 /* SamplePodUITestsLaunchTests.swift */,
 			);
 			path = SamplePodUITests;
+			sourceTree = "<group>";
+		};
+		FEE7AF9227B01A6400B73416 /* PodFiles */ = {
+			isa = PBXGroup;
+			children = (
+				FEE7AF9327B01A7500B73416 /* Logger.swift */,
+			);
+			path = PodFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 				FEE7AF6127B00F7900B73416 /* ViewController.swift in Sources */,
 				FEE7AF5D27B00F7900B73416 /* AppDelegate.swift in Sources */,
 				FEE7AF5F27B00F7900B73416 /* SceneDelegate.swift in Sources */,
+				FEE7AF9427B01A7500B73416 /* Logger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
