@@ -18,6 +18,7 @@ Pod::Spec.new do |spec|
   spec.name         = "FWSpec"
   spec.version      = "0.2"
   spec.summary      = "Learning how to create cocoa pods"
+  spec.ios.deployment_target = "11.0"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
