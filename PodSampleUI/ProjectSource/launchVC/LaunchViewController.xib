@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LaunchViewController" customModule="PodSampleUI" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Launch view controller" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Txl-vw-C5D">
+                    <rect key="frame" x="121" y="442.5" width="172" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xXi-Y0-Pbi">
+                    <rect key="frame" x="115.5" y="490" width="183" height="31"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="183" id="a7y-nv-7cw"/>
+                        <constraint firstAttribute="height" constant="31" id="edX-Vr-yVm"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Go To next enter details"/>
+                    <connections>
+                        <action selector="nextBtnTap:" destination="-1" eventType="touchUpInside" id="reS-Lj-7DN"/>
+                    </connections>
+                </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swiftLogo" translatesAutoresizingMaskIntoConstraints="NO" id="b5v-28-w3h">
+                    <rect key="frame" x="104" y="310" width="206" height="116"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="116" id="FmL-ey-57x"/>
+                        <constraint firstAttribute="width" constant="206" id="KCa-Le-RUb"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemOrangeColor"/>
+            <constraints>
+                <constraint firstItem="b5v-28-w3h" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="2mS-gr-pOm"/>
+                <constraint firstItem="Txl-vw-C5D" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="Qwz-6f-QuI"/>
+                <constraint firstItem="Txl-vw-C5D" firstAttribute="top" secondItem="b5v-28-w3h" secondAttribute="bottom" constant="16.5" id="VQV-xA-Axt"/>
+                <constraint firstItem="Txl-vw-C5D" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" id="ZUM-wy-aTA"/>
+                <constraint firstItem="xXi-Y0-Pbi" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="joO-4Z-bCm"/>
+                <constraint firstItem="xXi-Y0-Pbi" firstAttribute="top" secondItem="Txl-vw-C5D" secondAttribute="bottom" constant="26.5" id="yR7-jU-zrW"/>
+            </constraints>
+            <point key="canvasLocation" x="131.8840579710145" y="73.660714285714278"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="swiftLogo" width="400" height="225"/>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

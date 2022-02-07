@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EnterDetailsVC" customModule="PodSampleUI" customModuleProvider="target">
+            <connections>
+                <outlet property="progressBar" destination="cF2-P4-i7a" id="erx-21-Y77"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Details" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Ji-nt-Eur">
+                    <rect key="frame" x="158.5" y="442.5" width="97" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="97" id="ZPH-A4-8h4"/>
+                        <constraint firstAttribute="height" constant="21" id="bWa-Kd-rvY"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F1z-e5-io8">
+                    <rect key="frame" x="117" y="492" width="180" height="31"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="31" id="JJo-ku-Zqy"/>
+                        <constraint firstAttribute="width" constant="180" id="Ryu-rc-WsF"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Go back to root"/>
+                    <connections>
+                        <action selector="goBackTapped:" destination="-1" eventType="touchUpInside" id="fc2-hF-YcN"/>
+                    </connections>
+                </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iOSLogo" translatesAutoresizingMaskIntoConstraints="NO" id="kSd-l4-XRg">
+                    <rect key="frame" x="104" y="311" width="206" height="116"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="206" id="SAr-iR-lLy"/>
+                        <constraint firstAttribute="height" constant="116" id="rw1-Bp-uqq"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cF2-P4-i7a" customClass="GTProgressBar" customModule="GTProgressBar">
+                    <rect key="frame" x="57" y="263" width="300" height="50"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="RZa-Oq-iTf"/>
+                        <constraint firstAttribute="width" constant="300" id="rff-xP-Hhc"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="barMaxHeightInt">
+                            <integer key="value" value="40"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="barBorderColor">
+                            <color key="value" red="0.86881613729999996" green="0.39424437280000002" blue="0.50980645420000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="barBackgroundColor">
+                            <color key="value" red="0.53331589700000004" green="0.75989747050000001" blue="0.52937632800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="barFillColor">
+                            <color key="value" systemColor="systemPurpleColor"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemTealColor"/>
+            <constraints>
+                <constraint firstItem="5Ji-nt-Eur" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" id="MWb-TY-0kI"/>
+                <constraint firstItem="5Ji-nt-Eur" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="MoF-S7-guN"/>
+                <constraint firstItem="kSd-l4-XRg" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="RE7-r3-Fs2"/>
+                <constraint firstItem="5Ji-nt-Eur" firstAttribute="top" secondItem="kSd-l4-XRg" secondAttribute="bottom" constant="15.5" id="WgG-4s-01w"/>
+                <constraint firstItem="F1z-e5-io8" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="XHZ-Ov-fdn"/>
+                <constraint firstItem="kSd-l4-XRg" firstAttribute="top" secondItem="cF2-P4-i7a" secondAttribute="bottom" constant="-2" id="cfr-NL-UHa"/>
+                <constraint firstItem="cF2-P4-i7a" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="g3n-3c-911"/>
+                <constraint firstItem="F1z-e5-io8" firstAttribute="top" secondItem="5Ji-nt-Eur" secondAttribute="bottom" constant="28.5" id="vWu-i7-VtG"/>
+            </constraints>
+            <point key="canvasLocation" x="133" y="45"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="iOSLogo" width="256" height="256"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
