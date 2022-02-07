@@ -7,7 +7,7 @@
 
 import UIKit
 
-class PodSampleUILauncher: NSObject {
+public class PodSampleUILauncher: NSObject {
 
     static let shared = PodSampleUILauncher()
     var navigation : UINavigationController?
