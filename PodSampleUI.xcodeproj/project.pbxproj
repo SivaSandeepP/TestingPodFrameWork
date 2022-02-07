@@ -19,12 +19,12 @@
 		FE898FA327B15B7000D57415 /* LaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE898FA127B15B7000D57415 /* LaunchViewController.xib */; };
 		FE898FA627B15B8F00D57415 /* EnterDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE898FA427B15B8F00D57415 /* EnterDetailsVC.swift */; };
 		FE898FA727B15B8F00D57415 /* EnterDetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE898FA527B15B8F00D57415 /* EnterDetailsVC.xib */; };
-		FE898FAA27B15BBF00D57415 /* PodSampleUILauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE898FA927B15BBF00D57415 /* PodSampleUILauncher.swift */; };
 		FE898FC127B169AC00D57415 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE898FB927B169AC00D57415 /* ViewController.swift */; };
 		FE898FC227B169AC00D57415 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE898FBA27B169AC00D57415 /* AppDelegate.swift */; };
 		FE898FC327B169AC00D57415 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE898FBB27B169AC00D57415 /* SceneDelegate.swift */; };
 		FE898FC427B169AC00D57415 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE898FBD27B169AC00D57415 /* LaunchScreen.storyboard */; };
 		FE898FC527B169AC00D57415 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE898FBF27B169AC00D57415 /* Main.storyboard */; };
+		FE898FC727B16B4400D57415 /* PodSampleUILauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE898FC627B16B4300D57415 /* PodSampleUILauncher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,12 +67,12 @@
 		FE898FA127B15B7000D57415 /* LaunchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchViewController.xib; sourceTree = "<group>"; };
 		FE898FA427B15B8F00D57415 /* EnterDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterDetailsVC.swift; sourceTree = "<group>"; };
 		FE898FA527B15B8F00D57415 /* EnterDetailsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EnterDetailsVC.xib; sourceTree = "<group>"; };
-		FE898FA927B15BBF00D57415 /* PodSampleUILauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodSampleUILauncher.swift; sourceTree = "<group>"; };
 		FE898FB927B169AC00D57415 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = PodSampleUI/ViewController.swift; sourceTree = SOURCE_ROOT; };
 		FE898FBA27B169AC00D57415 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = PodSampleUI/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
 		FE898FBB27B169AC00D57415 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = PodSampleUI/SceneDelegate.swift; sourceTree = SOURCE_ROOT; };
 		FE898FBE27B169AC00D57415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE898FC027B169AC00D57415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		FE898FC627B16B4300D57415 /* PodSampleUILauncher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodSampleUILauncher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,11 +151,14 @@
 		FE898F6E27B15B2E00D57415 /* PodSampleUI */ = {
 			isa = PBXGroup;
 			children = (
+				FE898FBA27B169AC00D57415 /* AppDelegate.swift */,
+				FE898FBC27B169AC00D57415 /* Base.lproj */,
+				FE898FBB27B169AC00D57415 /* SceneDelegate.swift */,
+				FE898FB927B169AC00D57415 /* ViewController.swift */,
 				FE898FAB27B1677300D57415 /* ProjectSource */,
 				FE898F7827B15B2F00D57415 /* Assets.xcassets */,
 				FE898F7A27B15B2F00D57415 /* LaunchScreen.storyboard */,
 				FE898F7D27B15B2F00D57415 /* Info.plist */,
-				FE898FA927B15BBF00D57415 /* PodSampleUILauncher.swift */,
 			);
 			path = PodSampleUI;
 			sourceTree = "<group>";
@@ -198,10 +201,7 @@
 		FE898FAB27B1677300D57415 /* ProjectSource */ = {
 			isa = PBXGroup;
 			children = (
-				FE898FBA27B169AC00D57415 /* AppDelegate.swift */,
-				FE898FBC27B169AC00D57415 /* Base.lproj */,
-				FE898FBB27B169AC00D57415 /* SceneDelegate.swift */,
-				FE898FB927B169AC00D57415 /* ViewController.swift */,
+				FE898FC627B16B4300D57415 /* PodSampleUILauncher.swift */,
 				FE898FA827B15B9600D57415 /* EnterDetailsVC */,
 				FE898F9F27B15B4700D57415 /* launchVC */,
 			);
@@ -460,8 +460,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE898FC727B16B4400D57415 /* PodSampleUILauncher.swift in Sources */,
 				FE898FA627B15B8F00D57415 /* EnterDetailsVC.swift in Sources */,
-				FE898FAA27B15BBF00D57415 /* PodSampleUILauncher.swift in Sources */,
 				FE898FC127B169AC00D57415 /* ViewController.swift in Sources */,
 				FE898FC227B169AC00D57415 /* AppDelegate.swift in Sources */,
 				FE898FA227B15B7000D57415 /* LaunchViewController.swift in Sources */,
@@ -580,7 +580,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -635,7 +635,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

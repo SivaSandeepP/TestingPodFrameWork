@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.name         = "UIFW"
   spec.version      = "0.3"
   spec.summary      = "This is to test UI FrameWork"
-  spec.ios.deployment_target = "11.0"
+  spec.ios.deployment_target = "14.0"
 
 
   spec.homepage     = "http://EXAMPLE/UIFW"
@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
 
 
 
-  spec.source_files  = "PodSampleUI/**/*.{swift}"
+  spec.source_files  = "PodSampleUI/ProjectSource/**/*.{swift}"
   spec.resources = ["PodSampleUI/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,ttf,json,gif,strings}"]
 
   #spec.exclude_files = "PodSampleUI/Exclude"
