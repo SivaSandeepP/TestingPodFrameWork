@@ -131,7 +131,11 @@ Pod::Spec.new do |spec|
 
   # spec.requires_arc = true
 
+   spec.dependency'LoaderButton'
+
+
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
+
 
 end
