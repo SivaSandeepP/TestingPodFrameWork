@@ -9,7 +9,7 @@ import UIKit
 
 public class PodSampleUILauncher: NSObject {
 
-    static let shared = PodSampleUILauncher()
+    public static let shared = PodSampleUILauncher()
     var navigation : UINavigationController?
     private override init() { }
     
