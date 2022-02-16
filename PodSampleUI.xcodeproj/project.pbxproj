@@ -10,7 +10,7 @@
 		10B43DC3374203C96DFAFC69 /* Pods_PodSampleUI_PodSampleUIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01910799641F1408AED8C947 /* Pods_PodSampleUI_PodSampleUIUITests.framework */; };
 		5F66D178B85994DB4095340E /* Pods_PodSampleUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 834F7CA4181674FAE5FB1EA4 /* Pods_PodSampleUI.framework */; };
 		810A747979096D1C9EE19C93 /* Pods_PodSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB7A6E447FE4077981F7FF24 /* Pods_PodSampleUITests.framework */; };
-		FE898F7927B15B2F00D57415 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE898F7827B15B2F00D57415 /* Assets.xcassets */; };
+		FE898F7927B15B2F00D57415 /* UISDKAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE898F7827B15B2F00D57415 /* UISDKAssets.xcassets */; };
 		FE898F7C27B15B2F00D57415 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE898F7A27B15B2F00D57415 /* LaunchScreen.storyboard */; };
 		FE898F8727B15B2F00D57415 /* PodSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE898F8627B15B2F00D57415 /* PodSampleUITests.swift */; };
 		FE898F9127B15B2F00D57415 /* PodSampleUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE898F9027B15B2F00D57415 /* PodSampleUIUITests.swift */; };
@@ -55,7 +55,7 @@
 		CBDE17A63D2EB26AAE4D7713 /* Pods-PodSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodSampleUITests.release.xcconfig"; path = "Target Support Files/Pods-PodSampleUITests/Pods-PodSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FDA95B2F15E581A9E43C41B3 /* Pods-PodSampleUI-PodSampleUIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodSampleUI-PodSampleUIUITests.debug.xcconfig"; path = "Target Support Files/Pods-PodSampleUI-PodSampleUIUITests/Pods-PodSampleUI-PodSampleUIUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FE898F6C27B15B2E00D57415 /* PodSampleUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodSampleUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE898F7827B15B2F00D57415 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE898F7827B15B2F00D57415 /* UISDKAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = UISDKAssets.xcassets; sourceTree = "<group>"; };
 		FE898F7B27B15B2F00D57415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE898F7D27B15B2F00D57415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE898F8227B15B2F00D57415 /* PodSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,7 +156,7 @@
 				FE898FBB27B169AC00D57415 /* SceneDelegate.swift */,
 				FE898FB927B169AC00D57415 /* ViewController.swift */,
 				FE898FAB27B1677300D57415 /* ProjectSource */,
-				FE898F7827B15B2F00D57415 /* Assets.xcassets */,
+				FE898F7827B15B2F00D57415 /* UISDKAssets.xcassets */,
 				FE898F7A27B15B2F00D57415 /* LaunchScreen.storyboard */,
 				FE898F7D27B15B2F00D57415 /* Info.plist */,
 			);
@@ -328,7 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE898F7C27B15B2F00D57415 /* LaunchScreen.storyboard in Resources */,
-				FE898F7927B15B2F00D57415 /* Assets.xcassets in Resources */,
+				FE898F7927B15B2F00D57415 /* UISDKAssets.xcassets in Resources */,
 				FE898FA327B15B7000D57415 /* LaunchViewController.xib in Resources */,
 				FE898FC527B169AC00D57415 /* Main.storyboard in Resources */,
 				FE898FC427B169AC00D57415 /* LaunchScreen.storyboard in Resources */,
