@@ -156,7 +156,6 @@
 				FE898FBB27B169AC00D57415 /* SceneDelegate.swift */,
 				FE898FB927B169AC00D57415 /* ViewController.swift */,
 				FE898FAB27B1677300D57415 /* ProjectSource */,
-				FE898F7827B15B2F00D57415 /* UISDKAssets.xcassets */,
 				FE898F7A27B15B2F00D57415 /* LaunchScreen.storyboard */,
 				FE898F7D27B15B2F00D57415 /* Info.plist */,
 			);
@@ -201,6 +200,7 @@
 		FE898FAB27B1677300D57415 /* ProjectSource */ = {
 			isa = PBXGroup;
 			children = (
+				FE898F7827B15B2F00D57415 /* UISDKAssets.xcassets */,
 				FE898FC627B16B4300D57415 /* PodSampleUILauncher.swift */,
 				FE898FA827B15B9600D57415 /* EnterDetailsVC */,
 				FE898F9F27B15B4700D57415 /* launchVC */,
