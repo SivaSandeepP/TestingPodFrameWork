@@ -17,9 +17,9 @@ public class PodSampleUILauncher: NSObject {
     
     public func launchUILauncher(_ navigationController : UINavigationController) {
         debugPrint("Lanuncher called")
-        let launchVC = LaunchViewController()
-        self.navigation = navigationController
-        self.navigation?.pushViewController(launchVC, animated: true)
+      //  let launchVC = LaunchViewController()
+      //  self.navigation = navigationController
+       // self.navigation?.pushViewController(launchVC, animated: true)
     }
     
 }
