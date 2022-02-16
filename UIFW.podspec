@@ -31,8 +31,11 @@ Pod::Spec.new do |spec|
   spec.resources = ["PodSampleUI/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,ttf,json,gif,strings}"]
 
   #spec.exclude_files = "PodSampleUI/Exclude"
+    spec.static_framework = true
 
-
-   spec.dependency 'GTProgressBar'
+    spec.dependency 'GTProgressBar'
+    spec.dependency 'FirebaseAnalytics'
+    spec.dependency 'FirebaseCore'
+    spec.dependency 'FirebaseAuth'
 
 end

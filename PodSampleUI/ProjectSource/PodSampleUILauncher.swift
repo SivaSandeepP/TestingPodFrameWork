@@ -6,13 +6,13 @@
 //
 
 import UIKit
-import Firebase
+import FirebaseCore
 
 public class PodSampleUILauncher: NSObject {
 
     public static let shared = PodSampleUILauncher()
     var navigation : UINavigationController?
-    private override init() { }
+    private override init() { FirebaseApp.configure()}
     
     public func launchUILauncher(_ navigationController : UINavigationController) {
         debugPrint("Lanuncher called")
