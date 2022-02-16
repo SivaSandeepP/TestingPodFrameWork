@@ -200,8 +200,8 @@
 		FE898FAB27B1677300D57415 /* ProjectSource */ = {
 			isa = PBXGroup;
 			children = (
+				FEBDA68B27BD01AF001AAD4A /* Launcher */,
 				FE898F7827B15B2F00D57415 /* UISDKAssets.xcassets */,
-				FE898FC627B16B4300D57415 /* PodSampleUILauncher.swift */,
 				FE898FA827B15B9600D57415 /* EnterDetailsVC */,
 				FE898F9F27B15B4700D57415 /* launchVC */,
 			);
@@ -217,6 +217,14 @@
 			name = Base.lproj;
 			path = PodSampleUI/Base.lproj;
 			sourceTree = SOURCE_ROOT;
+		};
+		FEBDA68B27BD01AF001AAD4A /* Launcher */ = {
+			isa = PBXGroup;
+			children = (
+				FE898FC627B16B4300D57415 /* PodSampleUILauncher.swift */,
+			);
+			path = Launcher;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 

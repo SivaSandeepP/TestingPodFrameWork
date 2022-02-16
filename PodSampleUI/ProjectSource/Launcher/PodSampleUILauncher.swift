@@ -12,6 +12,7 @@ public class PodSampleUILauncher: NSObject {
 
     public static let shared = PodSampleUILauncher()
     var navigation : UINavigationController?
+    
     private override init() { FirebaseApp.configure()}
     
     public func launchUILauncher(_ navigationController : UINavigationController) {

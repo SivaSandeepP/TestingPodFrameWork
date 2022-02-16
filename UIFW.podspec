@@ -27,12 +27,12 @@ Pod::Spec.new do |spec|
 
 
 
-  spec.source_files  = "PodSampleUI/ProjectSource/**/*.{swift}"
-  spec.resources = ["PodSampleUI/ProjectSource/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,ttf,json,gif,strings}"]
+  spec.source_files  = "PodSampleUI/ProjectSource/Launcher/**/*.{swift}"
+  #spec.resources = ["PodSampleUI/ProjectSource/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,ttf,json,gif,strings}"]
 
   #spec.exclude_files = "PodSampleUI/Exclude"
-    spec.static_framework = true
 
+    spec.static_framework = true
     spec.dependency 'GTProgressBar'
     spec.dependency 'FirebaseAnalytics'
     spec.dependency 'FirebaseCore'
