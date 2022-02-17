@@ -6,9 +6,6 @@ target 'PodSampleUI' do
   use_frameworks!
   
 	pod "GTProgressBar"
-  pod "FirebaseAnalytics"
-  pod "FirebaseCore"
-  pod "FirebaseAuth"
   
   # Pods for PodSampleUI
 

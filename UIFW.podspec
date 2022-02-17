@@ -27,20 +27,20 @@ Pod::Spec.new do |spec|
 
 
 
-  spec.source_files  = "PodSampleUI/ProjectSource/Launcher/**/*.{swift}"
+  spec.source_files  = "PodSampleUI/ProjectSource/**/*.{swift}"
   #spec.resources = ["PodSampleUI/ProjectSource/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,ttf,json,gif,strings}"]
 
   #spec.exclude_files = "PodSampleUI/Exclude"
 
-#    spec.static_framework = true
- #   spec.dependency 'GTProgressBar'
+     #spec.static_framework = true
+    spec.dependency 'GTProgressBar'
   #  spec.dependency 'FirebaseAnalytics'
    # spec.dependency 'FirebaseCore'
-   # spec.dependency 'FirebaseAuth'
+   # spec.dependency 'FirebaseAuth' ,  -framework "FirebaseMessaging"
 #spec.pod_target_xcconfig = {
-#"OTHER_LDFLAGS" => '$(inherited) -framework "FirebaseCore" -framework "FirebaseMessaging"',
+#"OTHER_LDFLAGS" => '$(inherited) -framework "GTProgressBar"',
 #"CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES" => 'YES',
-#"FRAMEWORK_SEARCH_PATHS" => '$(inherited) "${PODS_ROOT}/FirebaseCore/Frameworks" "${PODS_ROOT}/FirebaseMessaging/Frameworks"'
+#"FRAMEWORK_SEARCH_PATHS" => '$(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/GTProgressBar"'
 #}
 
 end
