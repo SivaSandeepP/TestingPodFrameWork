@@ -32,15 +32,15 @@ Pod::Spec.new do |spec|
 
   #spec.exclude_files = "PodSampleUI/Exclude"
 
-    spec.static_framework = true
-    spec.dependency 'GTProgressBar'
-    spec.dependency 'FirebaseAnalytics'
-    spec.dependency 'FirebaseCore'
-    spec.dependency 'FirebaseAuth'
-spec.pod_target_xcconfig = {
-"OTHER_LDFLAGS" => '$(inherited) -framework "FirebaseCore" -framework "FirebaseMessaging"',
-"CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES" => 'YES',
-"FRAMEWORK_SEARCH_PATHS" => '$(inherited) "${PODS_ROOT}/FirebaseCore/Frameworks" "${PODS_ROOT}/FirebaseMessaging/Frameworks"'
-}
+#    spec.static_framework = true
+ #   spec.dependency 'GTProgressBar'
+  #  spec.dependency 'FirebaseAnalytics'
+   # spec.dependency 'FirebaseCore'
+   # spec.dependency 'FirebaseAuth'
+#spec.pod_target_xcconfig = {
+#"OTHER_LDFLAGS" => '$(inherited) -framework "FirebaseCore" -framework "FirebaseMessaging"',
+#"CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES" => 'YES',
+#"FRAMEWORK_SEARCH_PATHS" => '$(inherited) "${PODS_ROOT}/FirebaseCore/Frameworks" "${PODS_ROOT}/FirebaseMessaging/Frameworks"'
+#}
 
 end
