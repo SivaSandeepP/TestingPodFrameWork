@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
 
 
   spec.source_files  = "PodSampleUI/ProjectSource/**/*.{swift}"
-  #spec.resources = ["PodSampleUI/ProjectSource/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,ttf,json,gif,strings}"]
+  spec.resources = ["PodSampleUI/ProjectSource/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,ttf,json,gif,strings}"]
 
   #spec.exclude_files = "PodSampleUI/Exclude"
 
